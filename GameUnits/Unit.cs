@@ -13,5 +13,9 @@ namespace GameUnits
             Movement = movement;
             Health = health;
         }
+        public virtual void Move(int distance)
+        {
+            Console.WriteLine($"Unit moved {distance} units.");
+        }
     }
 }
