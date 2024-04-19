@@ -2,7 +2,7 @@ using System;
 
 namespace GameUnits
 {
-    public class Unit
+    public abstract class Unit
     {
         public int Movement { get; set; }
         public int Health { get; set; }
