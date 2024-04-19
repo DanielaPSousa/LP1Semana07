@@ -11,5 +11,9 @@ namespace MilitaryUnit
             XP = 0;
             AttackPower = attackPower;
         }
+    public override string ToString()
+        {
+            return $"{base.ToString()} AP={AttackPower} XP={XP}";
+        }   
     }
 }
