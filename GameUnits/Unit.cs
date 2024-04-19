@@ -17,5 +17,9 @@ namespace GameUnits
         {
             Console.WriteLine($"Unit moved {distance} units.");
         }
+        public override string ToString()
+        {
+            return $"{this.GetType().Name}: HP={Health} COST={Cost:F2}";
+        }
     }
 }
